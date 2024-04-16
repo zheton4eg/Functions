@@ -38,6 +38,11 @@ void main()
 	cout << endl;
 	ShiftLeft(arr, n, shiftsL);
 	cout << endl;
+	const int SIZE = 8;
+	int brr[SIZE];
+	FillRand(brr, SIZE);
+	Print(brr, SIZE);
+	cout << "Сумма элементов массива "
 }
 void FillRand(int arr[], const int n)
 {
