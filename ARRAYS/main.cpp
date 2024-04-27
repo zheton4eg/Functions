@@ -21,6 +21,8 @@ void Print(T arr[ROWS][COLS], const int ROWS, const int COLS);
 
 template<typename T>
 void Sort(T arr[], const int n);
+template<typename T>
+void Sort(T arr[ROWS][COLS], const int ROWS, const int COLS);
 
 template<typename T>
 T Sum(T arr[], const int n);
@@ -161,6 +163,12 @@ void Sort(T arr[], const int n)
 		}
 	}cout << endl;
 } 
+template<typename T>
+void Sort(T arr[ROWS][COLS], const int ROWS, const int COLS)
+{
+
+
+}
 template<typename T>
 T Sum(T arr[], const int n)
 {
