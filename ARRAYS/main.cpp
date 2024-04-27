@@ -5,12 +5,6 @@
 #include "Sort.h"
 #include "Statistics.h"
 
-
-
-
-
-
-
 void main()
 {
 	setlocale(LC_ALL, "");
