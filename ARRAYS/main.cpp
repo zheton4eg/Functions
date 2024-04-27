@@ -166,7 +166,19 @@ void Sort(T arr[], const int n)
 template<typename T>
 void Sort(T arr[ROWS][COLS], const int ROWS, const int COLS)
 {
+	for (int i = 0; i < ROWS; i++)
+	{
+		for (int j = i + 1; j < COLS; j++)
+		{
+			for (int k = 0; i < ROWS; i++)
+			{
+				for (int l = k==; j < COLS; j++)
+				{
 
+				}
+		}
+	}cout << endl;
+}
 
 }
 template<typename T>
